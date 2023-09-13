@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  background: #3066c8;
+  height: 60px;
+  padding: 1rem;
+}
+
+header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul li{
+  list-style: none;
+}
+
+header ul li i{
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.button{
+  text-align: center;
+  margin: 2rem;
+  width: 100vw;
+}
+
+.button a{
+  text-decoration: none;
+  background: #3066c8;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 70vh;
+}
+
+#map { 
+  height: 300px; 
+  width: 80%;
+  border-radius: 5px;
+}
+
+.checklist-pontos table tbody{
+  text-align: center;
+}
+
+.checklist-pontos table{
+  border: solid 1px #d3d3d3;
+  padding: 1rem;
+  
+}
