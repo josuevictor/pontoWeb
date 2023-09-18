@@ -8,7 +8,7 @@
 
   try {
     $conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user, $pass);
-    echo "conexão realizada com secesso";
+    echo "conexão realizada com sucesso";
   } catch (PDOException $err) {
     echo "Erro: conexão com o banco ed dados não realizada com secesso. Erro gerado " . $err->getMessage();
   }
