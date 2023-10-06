@@ -5,7 +5,7 @@ const lat = document.querySelector(".lat");
 
 if(navigator.geolocation){
 
-  navigator.geolocation.watchPosition(mostrarLocalizacao)
+  navigator.geolocation.getCurrentPosition(mostrarLocalizacao)
 }else {console.log('erro')};
 
 function mostrarLocalizacao(pos){
