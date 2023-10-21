@@ -37,7 +37,7 @@
     </ul>
   </header>
   <main class="container">    
-    <p id="horaAtual"> <?php echo date("d/m/Y H:i:s");?> </p>
+    <!-- <p id="horaAtual"> <?php echo date("d/m/Y H:i:s");?> </p> -->
     <p class="lat"></p>  
     <p class="long"></p>
     
@@ -46,7 +46,9 @@
     </div>
     
     <div class="button">
-      <a href="../php/registrar_ponto.php">Registrar Ponto</a>
+      <form method="POST">
+        <button type="submit">Resgistrar ponto</button>
+      </form>
     </div>
 
     <section class="checklist-pontos">
