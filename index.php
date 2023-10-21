@@ -1,6 +1,6 @@
 <?php
 
-include('../php/requisicaoLogin.php');
+include('php/requisicaoLogin.php');
 
 ?>
 

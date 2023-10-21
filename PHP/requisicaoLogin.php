@@ -20,7 +20,7 @@ if( isset($_POST['email']) || isset($_POST['senha']) )
 
   echo $total;
   if ($total <> 0 ) {
-    header('Location: home.php');
+    header('Location: views/home.php');
     
   }else{echo 'revise o email ou senha!';}
 
